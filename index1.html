@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>my Real Chat Box</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body id="body1"><div>
+ <h1 align="center" class="heading1" id="header">
+  Welcome To ChatBox : The Real Time Conversation<label id="dark"><a href="#"><i class='fa-solid fa-sun'></i></a></label>&nbsp
+  	<label id="light"><a href="#"><i class="fa fa-moon-o"></i></a></label>
+</h1></div>
+<hr size="4" color="lightblue">
+<div class="row">
+	<div class="col-2 text-center">
+		
+		<button type="button" class="btn btn-primary" id="usr1btn"> First User Login</button>
+        <br> <br>
+      
+        <div id="usr1LoginBox">
+         <input type="password" class="form-control" id="usr1txtBox" placeholder="Enter Password">
+         <br> 
+          <button type="button" class="btn btn-success" id="usr1Gobtn"> Submit </button>
+       </div>
+	
+	</div>
+	<div class="col-8">
+	</div>
+	<div class="col-2 text-center">
+		<button type="button" class="btn btn-primary" id="usr2btn">Second User Login</button>
+        <br> <br>
+        <div id="usr2LoginBox">
+         <input type="password" class="form-control" id="usr2txtBox" placeholder="Password">
+         <br> 
+          <button type="button" class="btn btn-success" id="usr2Gobtn"> Submit </button>
+       </div>
+	</div>
+</div>	
+
+<div style="display: flex; align-items: center; justify-content: space-around;" id="maindiv">
+
+<div id="maindiv1">
+	
+
+<div style=" display: inline-block;">
+	<div class="headerusr1" >
+		<i class="fas fa-arrow-left" id="backarrowusr1"></i>
+      		<img src="11.jpeg" class="imgusr1">
+      		<div style="width: 100px;"><span id="" class="nameusr1">User 1</span>
+      		<span id="typingusr1msg" style="height:px;"> </span></div>
+      		 <i class="fa fa-phone" id="phoneusr1"></i>
+      		  <i class='fa fa-video-camera' id="vediousr1"></i>
+      		   
+      		    <a href="#" id="clearscreenusr1"><i class="fa fa-close" id="dotusr1"></i></a>
+	</div>
+
+
+	<div id="usr1ChatBox">
+		
+
+
+	</div>
+
+	<div id="sendbox">
+
+      	<input type="text" name="" id="usr1MsgSend" placeholder="Type a Message">
+      	
+
+      	<a href="#" id="usr1SendBtn">
+      		<i class='fa fa-send'></i>	</a>
+      		<!--<img src="emoji.jpeg" width="40" height="30" id="emojiusr">-->
+
+      		
+
+      
+
+      </div>
+	 
+
+</div>
+
+
+
+
+
+</div>
+
+
+<div>
+	
+<div style= "display: inline-block;" >
+
+<div id="maindiv2">
+	
+
+<div style=" display: inline-block;">
+	<div class="headerusr2" >
+		<i class="fas fa-arrow-left" id="backarrowusr2"></i>
+      		<img src="11.jpeg" class="imgusr2">
+      		<div style="width: 100px;"><span id="" class="nameusr2">User 2</span>
+      		<span id="typingusr2msg" style="height:px;"> </span></div>
+      		 <i class="fa fa-phone" id="phoneusr2"></i>
+      		  <i class='fa fa-video-camera' id="vediousr2"></i>
+      		   
+      		    <a href="#" id="clearscreenusr2"><i class="fa fa-close" id="dotusr2"></i></a>
+	</div>
+
+	<div id="usr2ChatBox" >
+		
+
+
+	</div>
+
+	<div id="sendbox">
+
+      	<input type="text" name="" id="usr2MsgSend" placeholder="Type a Message">
+      	
+
+      	<a href="#" id="usr2SendBtn">
+      		<i class='fa fa-send'></i>	</a>
+      		<!--<img src="emoji.jpeg" width="40" height="30" id="emojiusr">-->
+
+      		
+
+      
+
+      </div>
+   
+
+		
+	</div>
+
+</div>
+	
+</div> 
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="myjs/chatbox.js"></script>
+</body>
+</html>
